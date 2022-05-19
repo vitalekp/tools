@@ -6,10 +6,10 @@
 // импортируйте ф-цию printProfile из profile/index.js под таким же именем
 
 import calcExpression, { sum, mult } from "./calculator/index.js";
-import fetchUser from "./profile/gateway";
-import { printProfile } from "./profile";
-import "./polyffils/array-flat";
-import "./polyffils/array-flatMap";
+import fetchUser from "./profile/gateway.js";
+import { printProfile } from "./profile/index.js";
+import "./polyffils/array-flat.js";
+import "./polyffils/array-flatMap.js";
 
 const calcResult = calcExpression("1 + 2");
 const sumResult = sum(1, 2);
