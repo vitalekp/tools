@@ -8,6 +8,8 @@
 import calcExpression, { sum, mult } from "./calculator/index.js";
 import fetchUser from "./profile/gateway";
 import { printProfile } from "./profile";
+import "./polyffils/array-flat";
+import "./polyffils/array-flatMap";
 
 const calcResult = calcExpression("1 + 2");
 const sumResult = sum(1, 2);
